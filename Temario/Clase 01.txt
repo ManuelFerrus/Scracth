@@ -1,0 +1,76 @@
+Para acceder tenemos que ingresar a la liga
+https://scratch.mit.edu
+
+Para poder crear proyectos nos tenemos que unir a la comunidad de scratch
+Podemos unirnos a la comunidad de scratch
+	elegir un nombre de usuario (no el nombre real)
+	contraseña (unica y solo la debes de saber tú)
+	pones mi correo y yo lo voy a confirmar
+o bien ingresar si ya tenemos una cuenta
+
+Cerramos sesión y ahora nos volvemos a logear (3 veces, para practicar)
+
+En Explorar podemos ver los proyectos ya creados por otros usuarios, podemos ver las diferentes categorias
+
+En ideas, como su nombre lo indica nos podemos dar ideas de que crear, ahi podemos ver tutoriales, para la creacion de proyectos, historias, juegos
+
+Para hacer algun proyecto, damos clic en "CREAR"
+- Explicacion interfaz:
+	Cambiar idioma (mundo)
+	Nombre del proyecto
+	Instrucciones (parte izquierda, las utilizaremos para crear nuestro codigo)
+	área central (área de código: ahi pondremos las instrucciones de nuestro programa)
+	el escenario (donde sale el gatito: ahi podemos ver lo que va realizando nuestro programa)
+	Bandera verde (para iniciar)
+	Boton rojo (detener nuestro programa)
+	Botones para hacer grande o chico el escenario
+	área de objetos (podemos agregar tantos objetos como nosotros queramos)
+	Nombre de objeto (se recomienda poner un nombre descriptivo para cada objeto)
+	área de escenario (podemos cambiar el fondo, segun sea nuestra necesidad)
+	Pestaña
+		Código (ahi vemos las instrucciones que le podemos agregar a nuestro programa)
+		Disfraces (podemos ver los disfraces con los que podemos intercambiar, tambien podemos agregar un disfraz nuevo) - Crear un disfraz nuevo, agregar bigote, lentes, etc
+		Sonido (ahi podemos escuchar los sonidos que le poedmos agregar a nuestro programa, se pueden editar los que ya tenemos) - escuchar los efectos
+
+- Explicacion coordenadas: (cambiar fondo por uno de coordenadas)
+	Posicion x		0
+	Posicion y		0
+	Mostrar SI / NO
+	Tamaño			100
+	Dirección		90 (dar clic y ver los tipos de giro)
+
+- Explicacion movimientos: (para ejecutar, damos clic en la instruccion)
+	hacer que nuestro gato se mueva 10 pasos y ver como va cambiando su posicion en base a X (interactuar con los pasos que da, regresar a 0)
+	hacer que el gato gire 30 grados, y ver su direccion (arrastar y soltar, para agregar mas instrucciones)
+
+- Agregar objetos
+	clic en el gatito+
+		opcion 1: subir un archivo
+		opcion 2: sorpresa, modo aleatorio
+		opcion 3: pintar, se puede dibujar
+		opcion 4: buscar, seleccionamos uno de la biblioteca
+
+- Para practicar, te recomiendo dar clic en TUTORIALES, eliges el tema y ahi solo tienes que ver el video y seguir las instrucciones. Solo de ti depende que tanto quieras aprender y cumplir tus metas.
+
+- Añadir extensiones
+	Musica, experimentar con sus posibilidades
+
+Eliminar bloque (clic derecho eliminar)
+Creamos un hola mundo
+Explicar
+	bloques que se pueden unir (arriba y abajo)
+	bloques que solo inician (eventos)
+
+- Crear un proyecto que realice lo siguiente
+	al presionar la bandera verde
+	ir a x -193 y -125
+	deslizar en 1 seg a x 0 y 0
+	decir Hola por 2 segundos
+	decir Bievenido a schrat Axel por 2 segundos
+	delizar en 1 seg a x -193 y -125
+
+Guardar un proyecto (menú archivo)
+	Nube / Online
+	Computadora (para respaldo)
+
+Para ver tus proyectos, da clic en tu nombre / mis cosas (seleccionar el proyecto, ver dentro, para ver el codigo y editarlo)
