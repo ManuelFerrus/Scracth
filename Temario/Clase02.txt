@@ -1,0 +1,89 @@
+Agregar objetos
+	uno de los predeterminados
+	uno dibujado
+Cambiar el nombre del objeto
+	gato, perro, plato
+Opciones de Movimientos
+	No me importa la velocidad de la respuesta -> eventos
+	Quiero movimientos rapidos, pero usando el teclado -> Bucle y sensores
+	Quiero movimientos rapidos, pero usando el ratón -> Bucle y sensores
+Creamos un nuevo proyecto
+	De ser necesario, ajustar el idioma
+	Poner titulo al proyecto (Movimiento Lento)
+	Cambiamos el fondo, por el de coordenadas
+	Código
+		Agregamos al presionar tecla (hacia arriba)
+		Apuntar en direccion 0
+		mover 10 pasos 
+		Ver funcionalidad
+		Regresar a x0, y0, direcion 90°
+		---
+		Duplicar evento
+		Flecha hacia abajo
+		Apuntar en direccion 180
+		Ver funcionalidad
+		Regresar a x0, y0, direcion 90°
+		---
+		hacer lo mismo para izquierda y derecha
+		ver funcionalidad
+		---
+		Regresar a x0, y0, direcion 90°
+		---
+		Que se aprecia (el gato gira y camina de cabeza)
+		Agregar al presionar bandera
+		Fijar estilo de rotacion (izquierda - derecha)
+		Ver funcionalidad
+		---
+	como se aprecia, se mueve, pero se mueve un poco lento (esto al dejar presionada la tecla, se mueve, se pausa y luego se vuelve a mover)
+Creamos un nuevo proyecto
+	De ser necesario, ajustar el idioma
+	Poner titulo al proyecto (Movimiento Rapido)
+	Código
+		Agregar al presionar bandera
+		Fijar estilo de rotacion (izquierda - derecha)
+		Agregamos un por siempre (para permitir que se ejecuten las instruciones que estan dentro de este bloque)
+		Dentro de este bloque, ponemos la condicionar si - entonces (para detectar si se presiona una tecla)
+		vamos a sensores, y buscamos ¿Tecla, presionada?
+		y dentro de esta condicion, pondremos apuntar en direccion 0 (hacia arriba)
+		mover 10 pasos
+		duplicamos este bloque del si, entonces, y lo configuramos para arriba, izquierda y derecha
+		Verificar la funcionalidad y notar, que el movimiento es mucho mas rápido 
+Creamos un nuevo proyecto
+	De ser necesario, ajustar el idioma
+	Poner titulo al proyecto (Movimiento con Raton)
+	Código
+		Al presionar bandera
+		por siempre
+		ir a: puntero del raton
+		Ver funcionalidad (presionar la bandera, y mover el mouse sobre el escenario)
+		Detener, boton rojo
+		Regresar a posicion x0, y0
+Creamos un nuevo proyecto
+	De ser necesario, ajustar el idioma
+	Poner titulo al proyecto (Movimiento con Raton2)
+	El objetivo es que el objeto solo se mueva de izquierda a derecha, es decir el objeto no se podra mover arriba y abajo (ejemplo un carro)
+	Cambiar el fondo por uno de una calle
+	Borrar el objeto del gato
+	Agregar un carro
+	Código
+		al presionar bandera
+		por siempre
+		movto - fijar a x
+		y dentro de ese control, agregar sensor - posicion x del raton
+		ver funcionalidad, e intentar mover hacia arriba
+creamos un nuevo proyecto
+	De ser necesario, ajustar el idioma
+	Poner titulo al proyecto (Mi primer juego)
+	El objetivo sera cachar manzanas en una cesta, que solo se mueve de izquierda a derecha
+	Cambiar el fondo por un parque
+	quitar el gato
+	Agregar un bol (x0, y-130)
+	Agregar una manzana (x0, y150, tam 50)
+	Codigo bowl
+		al presionar bandera
+		por siempre
+		movto - fijar a x
+		y dentro de ese control, agregar sensor - posicion x del raton
+		ver funcionalidad, e intentar mover hacia arriba
+	Codigo Manzana
+		ver imagen
