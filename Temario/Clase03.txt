@@ -1,0 +1,67 @@
+Movimiento de objetos de manera autonoma (poner titulo)
+Creamos un nuevo objeto (un balón)
+Pasos:
+	al presionar la bandera verde
+	por siempre
+	mover 10 pasos
+	damos clic en la bandera verde y como podemos ver, el balón se mueve, pero solo en una linea recta y al llegar al borde se detiene
+	lo regresamos a x 0
+	y una vez que lo pongamos ahi, se vuelve a ir, entonces tenemos que detener la ejecucion
+	y nuevamente posicionar en x 0
+	agregamos el movimiento, rebotar si toca un borde
+	ejecutamos y vemos que el balon ya rebota de lado a lado
+ahora, vamos a hacer que la pelota rebote por todo el escenario, para ello, tenemos que hacer:
+	entre los controles al presionar la bandera y por siempre, vamos a agregar el movimiento, apuntar en dirección
+	dentro de este control (en el circulo 90), vamos a agregar el operador, numero al azar entre 1 y 10, cambiamos el valor de 10, por 360, esto que significa, significa, que antes de moverse ira cambiando hacia donde apunta el movimiento, entre 1 y 360, recuerda que los circulos tienen 360°, por eso estos valores (imagina una pizza)
+	da clic en la bandera verde, observa el movimiento, para que te imaginas que te sirva este comportamiento?
+	vamos a agregarle que cada vez que inicie, se vaya a la posicion x0, y0
+	que espere 1 segundo y continue
+	presiona la bandera verde, luego el boton rojo y ve su comportamiento
+ahora agregamos un objeto nuevo (un carro) y lo ponemos recargado a la izquierda, el codigo que tendra el carro es el siguiente:
+	al presionar la bandera verde
+	ir a x (###) y(###), se dejan sus valores
+	por siempre
+	agregamos deslizar en 1 segundo a, le quitamos el - a X
+	despues ponemos apuntar en direccion -90 (izquierda)
+	volvemos a agregar, deslizar en 1 segundo a, x (###) y(###), se dejan sus valores
+	despues ponemos apuntar en direccion 90 (derecha)
+	da clic en la bandera verde, como puedes ver, el carro se pone de cabeza, para evitar esto
+	para hacer que el objeto, vaya mas lento, solo aumentamos el valor de los segundos en deslizar en
+	antes del por siempre, agregamos fijar estilo de rotacion izq-der
+
+CREAMOS UN NUEVO PROYECTO, como titulo (atrapado)
+	borramos el objeto, del gato y agregamos un buso (Diver), lo ponemos un poco abajo
+	cambiamos el fondo (underwater)
+	agregamos otro objeto, un tiburon (shark)
+Vamos a hacer que nuestro buso, se mueva con las teclas, por lo cual lo seleccionamos y el codigo va a ser el siguiente:
+Esto ya lo vimos en clases anteriores, pero sirve para repasar,
+	al presionar la bandera ver
+	por siempre
+	si -- entonces
+	tecla presionada -- flecha arriba
+	apuntar en direccion 0 (arriba)
+	mover 10 pasos
+	tenemos que duplicar el bloque si -- entonces, acuerdate que tiene que ser abajo del que ya tienes
+	para duplicar da clic derecho en el si entonces, luego duplicr y lo arrastas a donde lo quieras dejar, dejalo antes del fin
+	cambia los valores de tecla y apuntar a donde le corresponda
+	antes de iniciar, ponemos el ir a x (###) y(###), se dejan sus valores
+	presiona la flecha verde y ve el moviento del buso...
+
+si todo esta bien, ahora seguimos con el tiburon, el objetivo es que no sea el usuario quien lo mueva, que se mueva solo, seleccionamos el tiburon y agremos el siguiente codigo
+	movemos el tiburon recargado arrbia a la derecha
+	al presionar la bandera
+	ir a x (###) y(###), se dejan sus valores
+	fijar estilo rotacion, izq - der
+	apuntar en direccion,  al azar, entre 1 y 360
+	por siempre
+	mover 10 pasos
+	que rebote al tocar el borde
+	presiona la bandera verde y ve lo que pasa
+
+el juego debe de terminar cuando el tiburon toca al buso, entonces, nos regresamos al objeto del buso y modificamos el codigo
+	agregamos otro al presionar la bandera
+	esperar hasta que
+	tocando -- shark (tiburon)
+	decir "GAME OVER", por 2 segundos
+	dentener todos
+	presiona la bandera verde, y has que te atrape el tiburon
